@@ -1,8 +1,8 @@
 {
-  "name": "Cargo Near",
-  "id": "cargo-near",
+  "name": "Utility CLI",
+  "id": "unc-cli",
   "version": "0.1.0",
-  "description": "A feature to install cargo-near",
+  "description": "A feature to install the unc-cli",
   "options": {},
   "installsAfter": ["ghcr.io/devcontainers/features/common-utils"]
 }

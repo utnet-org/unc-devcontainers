@@ -1,5 +1,5 @@
 {
-  "name": "NEAR Devcontainer Rust",
+  "name": "Utility Devcontainer Rust",
   "build": {
     "dockerfile": "./Dockerfile",
     "context": "."
@@ -7,8 +7,7 @@
 
   // 👇 Features to add to the Dev Container. More info: https://containers.dev/implementors/features.
   "features": {
-    "./cargo-near": {},
-    "./near-cli": {},
+    "./unc-cli": {},
     "ghcr.io/devcontainers/features/common-utils": {
       "installZsh": "false",
       "installOhMyZsh": "false",
@@ -27,7 +26,7 @@
   // "forwardPorts": [],
 
   // Cache images that will be used on source verification
-  "onCreateCommand": "docker pull nearprotocol/contract-builder:latest-amd64",
+  "onCreateCommand": "docker pull ruster2024/contract-builder:latest-amd64",
 
   "remoteUser": "vscode",
 

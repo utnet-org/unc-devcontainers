@@ -1,6 +1,6 @@
-# Cargo Near (cargo-near)
+# Utility CLII (near-cli-rs)
 
-A feature to install cargo-near
+A feature to install near-cli-rs
 
 ## Example Usage
 

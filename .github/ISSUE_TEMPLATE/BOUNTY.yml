@@ -76,8 +76,8 @@ body:
         - BOS
         - News
         - Hackathon
-        - NEARCON2023
-        - NEARWEEK
+        - UtilityCON2024
+        - UtilityWEEK
 
   - type: input
     id: deadline
@@ -95,14 +95,13 @@ body:
         - USDC.e
         - USDT.e
         - DAI
-        - wNEAR
         - USDt
         - XP
         - marmaj
         - NEKO
         - JUMP
         - USDC
-        - NEARVIDIA
+        - UNC
       default: 0
     validations:
       required: true

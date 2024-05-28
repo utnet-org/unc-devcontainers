@@ -21,14 +21,8 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: "Publish cargo-near"
+      - name: "Publish unc-cli"
         uses: devcontainers-community/publish-feature@v1
         with:
-          path: ".devcontainer/cargo-near"
-          image: "ghcr.io/near/near-devcontainers/features/cargo-near"
-
-      - name: "Publish near-cli"
-        uses: devcontainers-community/publish-feature@v1
-        with:
-          path: ".devcontainer/near-cli"
-          image: "ghcr.io/near/near-devcontainers/features/near-cli"
+          path: ".devcontainer/unc-cli"
+          image: "ghcr.io/utnet-org/unc-devcontainers/features/unc-cli"
