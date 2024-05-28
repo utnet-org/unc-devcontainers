@@ -1,6 +1,6 @@
-# Utility CLII (near-cli-rs)
+# Utility CLII (utility-cli-rs)
 
-A feature to install near-cli-rs
+A feature to install utility-cli-rs
 
 ## Example Usage
 
