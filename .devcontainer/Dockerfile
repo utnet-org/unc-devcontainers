@@ -13,6 +13,7 @@ RUN set -eux; \
         pkg-config \
         openssl \
         libssl-dev \
+        build-essential \
         --assume-yes libudev-dev \
         ca-certificates \
         wget \
