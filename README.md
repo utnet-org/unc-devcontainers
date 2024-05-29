@@ -14,7 +14,7 @@ For integrating this Devcontainer into your repositories, create the following c
 ```json
 {
   "name": "Utility Devcontainer Rust",
-  "image": "ghcr.io/utnet-org/unc-devcontainer:latest",
+  "image": "ghcr.io/utnet-org/utility-devcontainers-rs:latest",
   // Uncomment and modify the following lines if necessary
   // "forwardPorts": [8000],
   "customizations": {
@@ -34,7 +34,7 @@ For `unc-cli`:
 
 ```json
 "features": {
-  "ghcr.io/utnet-org/unc-devcontainers/features/unc-cli:latest": {}
+  "ghcr.io/utnet-org/utility-devcontainers-rs/features/unc-cli:latest": {}
 }
 ```
 
