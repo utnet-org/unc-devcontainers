@@ -1,6 +1,6 @@
 # Devcontainer for Utility Smart Contract
 
-This repository hosts the official Devcontainer image for Utility Protocol development, featuring preinstalled essential tools. You can access the image on the [GitHub Container Registry](https://ghcr.io/utnet-org/unc-devcontainer).
+This repository hosts the official Devcontainer image for Utility contract development, featuring preinstalled essential tools. You can access the image on the [GitHub Container Registry](https://ghcr.io/utnet-org/unc-devcontainer).
 
 ## Usage
 
