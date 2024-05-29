@@ -25,4 +25,4 @@ jobs:
         uses: devcontainers-community/publish-feature@v1
         with:
           path: ".devcontainer/unc-cli"
-          image: "ghcr.io/utnet-org/unc-devcontainers/features/unc-cli"
+          image: "ghcr.io/utnet-org/utility-devcontainers-rs/features/unc-cli"
