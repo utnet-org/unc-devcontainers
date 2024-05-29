@@ -13,6 +13,7 @@ RUN set -eux; \
         pkg-config \
         openssl \
         libssl-dev \
+        --assume-yes libudev-dev \
         ca-certificates \
         wget \
         ; \
@@ -37,6 +38,7 @@ RUN set -eux; \
     rustc --version; \
     rustup component add rustfmt; \
     rustup target add wasm32-unknown-unknown; \
+    cargo install cargo-nextest; \
     apt-get remove -y --auto-remove \
         wget \
         ; \
